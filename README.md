@@ -19,8 +19,9 @@ ssh -T git@github.com
 
 Результат: Hi Ilya-Shtukin! You've successfully authenticated...
 
-![alt text](image-1.png)
+![alt text](<image-2.png>)
 
 ## 4. Работа с репозиторием по SSH
 
 Ссылка на репозиторий: https://github.com/Ilya-Shtukin/ssh-github-practice
+SSH push test

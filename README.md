@@ -23,11 +23,10 @@ ssh -T git@github.com
 
 ## 4. Работа с репозиторием по SSH
 
-Изначально репозиторий был склонирован по HTTPS для настройки окружения. После генерации и добавления SSH-ключа, удалённый репозиторий (remote) был переключён на SSH-URL:
+Для выполнения задания был выбран репозиторий `ci-demo`. Он был склонирован с нуля строго по SSH-URL, без использования HTTPS:
 
 bash
-git remote set-url origin git@github.com:Ilya-Shtukin/ssh-github-practice.git
-git remote -v
+git clone git@github.com:Ilya-Shtukin/ci-demo.git
 Затем был создан коммит и выполнен git push. Операция прошла успешно без запроса пароля GitHub, что подтверждает работу SSH-аутентификации (ключ был добавлен в ssh-agent):
 
 bash
@@ -35,7 +34,7 @@ git add README.md
 git commit -m "Step 4: first push over SSH without password"
 git push origin main
 
-![alt text](image-3.png)
+![alt text](<пункт 4.png>)
 
 Ссылка на репозиторий: https://github.com/Ilya-Shtukin/ssh-github-practice
 SSH push test

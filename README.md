@@ -6,7 +6,7 @@
 - Приватный ключ защищён passphrase: да
 - Публичный ключ: `~/.ssh/id_ed25519.pub`
 
-![Ключ добавлен на GitHub](Генерация SSH-ключа и добавление на GitHub.jpg)
+![alt text](<Генерация ключа.png>)
 
 ## 2. Добавление ключа на GitHub
 Ключ добавлен через Settings → SSH and GPG keys.
@@ -19,7 +19,7 @@ ssh -T git@github.com
 
 Результат: Hi Ilya-Shtukin! You've successfully authenticated...
 
-![alt text](<Проверка SSH подключения-2.jpg>)
+Проверка SSH подключения.jpg
 
 ## 4. Работа с репозиторием по SSH
 

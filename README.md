@@ -11,7 +11,7 @@
 ## 2. Добавление ключа на GitHub
 Ключ добавлен через Settings → SSH and GPG keys.
 
-![alt text](<Генерация SSH-ключа и добавление на GitHub-1.jpg>)
+![alt text](<Генерация SSH-ключа и добавление на GitHub.jpg>)
 
 ## 3. Проверка подключения
 bash

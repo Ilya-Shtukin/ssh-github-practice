@@ -14,7 +14,7 @@
 ![alt text](<Генерация SSH-ключа и добавление на GitHub-1.jpg>)
 
 ## 3. Проверка подключения
-```bash
+bash
 ssh -T git@github.com
 
 Результат: Hi Ilya-Shtukin! You've successfully authenticated...
